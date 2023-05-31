@@ -20,6 +20,7 @@ const ProductContext = (props) => {
         {id:6, name: "Rings", price:10,image:rings, status:"hot"},
         {id:7, name: "Shoes", price:230,image:shoes, status:"hot"},
         {id:8, name: "Watch", price:400,image:watch, status:"new"},
+      
     ])
   return (
     <>

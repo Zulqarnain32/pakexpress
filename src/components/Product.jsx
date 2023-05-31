@@ -1,10 +1,13 @@
 import React, { useContext } from 'react'
-import { prodConetxt } from '../Global/ProductContext'
 import Banner from './Banner'
 import { Cartcontext } from '../Global/CartContext'
+import { prodConetxt } from '../Global/ProductContext'
 import Footer from './Footer'
 const Product = () => {
     const { products } = useContext(prodConetxt)
+
+    // const prodata = useContext(prodConetxt)
+    // console.log(prodata);
     const {dispatch} = useContext(Cartcontext)
     // console.log(data);  this line will print totalPrice ,quantity shopingcart rtc 
   

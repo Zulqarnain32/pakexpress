@@ -10,7 +10,7 @@
 body{
    position: relative; 
    overflow-x: hidden;
-  width: 100%; 
+   width: 100%; 
 }
 .logo{
   color: rgb(253, 83, 15);

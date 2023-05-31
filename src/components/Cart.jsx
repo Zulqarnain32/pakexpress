@@ -46,7 +46,7 @@ const Cart = () => {
             </div>
             <div className="stripe-section">
 
-              {/* <button>Pay Now</button> */}
+             
             </div> 
 
           </div>
